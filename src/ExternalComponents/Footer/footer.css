@@ -1,0 +1,78 @@
+.footer{
+    margin-top: 3rem;
+    letter-spacing: normal;
+}
+.link-catogories h4{
+    font-size: 20px ;
+    font-weight: 600 ;
+}
+.link-catogories h4 span{
+    color: #0c831f;
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+}
+.pageLinks{
+    margin-bottom: 42px ;
+}
+.pageLinks .linkItem1{
+    margin-top: 1rem;
+}
+.pageLinks .linkItem1 p{
+    display: table;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.pageLinks .linkItem2{
+    margin-top: 2rem;
+    margin-left: 1.25rem;
+}
+.pageLinks .linkItem2 p{
+    display: table;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.downloadAndFollow{
+    padding: 18px;
+    width: 96%;
+    background-color: rgb(252, 252, 252);
+}
+.downloadAndFollow .copyright p ,
+.downloadAndFollow .download p{
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+.downloadAndFollow .download p{
+    font-size: 16px;
+}
+.downloadAndFollow .download img{
+    object-fit: fill;
+    height: 33px;
+    width: 100px;
+    cursor: default;
+}
+.downloadAndFollow .follow .icon{
+    width: 26px;
+    font-size: 26px;
+    background-color: #1d1d1d;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: .7rem .7rem;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.downloadAndFollow .follow .icon:nth-child(3),
+.downloadAndFollow .follow .icon:nth-child(5){
+    font-size: 28px !important;
+}
+.description p{
+    font-size: 16px;
+    margin: 12px;
+    line-height: 20px;
+    color: #666666;
+}

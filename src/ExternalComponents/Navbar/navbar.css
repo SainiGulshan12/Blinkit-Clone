@@ -1,0 +1,118 @@
+.navbar {
+    height: 100px;
+    width: 100%;
+    padding: 0 2rem !important;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.navbar-brand{
+    position: relative;
+    padding: 1rem 2.55rem 1rem 0 !important;
+    margin-right: 0 !important;
+    overflow: hidden;
+}
+.navbar-brand:hover{
+    background-color: rgb(252,252,252);
+}
+.navbar-brand img {
+    object-fit: cover;
+    width: 8rem;
+}
+.navbar-brand::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    top: 0rem;
+    left: 10.5rem;
+    width: 1px; 
+    height: 6rem;
+}
+.delivery{
+    padding: 2rem 3rem;
+    cursor: pointer;
+}
+.delivery:hover{
+    background-color: rgb(252,252,252);
+}
+.delivery h5{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: .25rem !important;
+    letter-spacing: 0 ;
+    overflow: hidden;
+}
+.delivery p{
+    margin-bottom: 0 !important;
+    letter-spacing: 0 ;
+    font-size: 15px;
+}
+.delivery p .down{
+    margin-left: .5rem;
+}
+.navbar .search-box{
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 0 0 0 1rem;
+}
+.navbar .search{
+    height: 50px;
+    padding: 0 0 0 12px;
+    background-color: #f8f8f8;
+    border: none;
+}
+.navbar .search::placeholder{
+    font-weight: 400;
+}
+.navbar .magnify{
+    font-size: 20px;
+}
+.navbar .nav-link {
+    padding: 2rem 5rem 2rem 4rem !important;
+    font-size: 20px ;
+    color: #363636 ;
+}
+.navbar .nav-link:hover{
+    background-color: rgb(252,252,252);
+}
+.navbar .cart-btn{
+    padding: 0rem 1rem;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #e0dfdf;
+    border: none;
+    border-radius: 10px ;
+}
+.cart-btn button{
+    padding: 1rem 3.5rem 1rem 0rem;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.cart-btn, .cart-btn button:hover{
+    cursor: no-drop;
+}
+.navbar .cart-btn .cart{
+    margin-right: .8rem;
+    font-size: 20px;
+}
+
+
+.user{
+    display: none;
+    position: relative;
+    background: none;
+    padding: .75rem .75rem;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+.user .icon{
+    position: absolute;
+    left: 17%;
+    bottom: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}

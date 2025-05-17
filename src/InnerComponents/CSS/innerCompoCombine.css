@@ -1,0 +1,226 @@
+/* Left part CSS start */
+
+
+.leftpart {
+    position: relative;
+    height: 75vh;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px 0px;
+    background-color: #ffffff;
+    max-width: 7% !important;
+    border: .5px solid rgb(232, 232, 232);
+    padding: 0 .5rem !important;
+}
+
+.leftpart .items {
+    margin: 8px 0;
+    justify-items: center;
+}
+
+.leftpart .items .img-wrapper {
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 52px;
+    height: 53px;
+    border-radius: .75rem .75rem;
+    background-color: rgb(248, 248, 248);
+    overflow: hidden;
+}
+
+.leftpart .items .img-wrapper img {
+    position: absolute;
+    bottom: -24px;
+    object-fit: contain;
+    width: 40px;
+    height: 100%;
+    border-radius: 8px;
+    transform: scale(1.3);
+}
+
+.leftpart .items p {
+    text-align: center;
+    font-size: 12px;
+    color: #696969;
+    line-height: 14px;
+    margin-top: 6px;
+    margin-bottom: 0 !important;
+
+}
+
+
+/* Left part CSS End  */
+
+/* Right part CSS Start  */
+
+
+.rightpart {
+    height: 75vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+}
+
+.selling-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    padding: 8px 0px 4px 5px;
+}
+
+.selling-items .item {
+    min-width: 194px;
+    max-width: 194px !important;
+    border: 0.5px solid rgb(232, 232, 232);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+    background-color: #fff;
+    padding: 0 .75rem .75rem;
+    cursor: pointer;
+}
+
+.item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+}
+
+
+.mins {
+    overflow: hidden;
+    height: 18px;
+    font-size: 8px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: .1rem .3rem;
+    background-color: #f5f5f5;
+}
+
+.item .mins img {
+    width: 11px !important;
+    height: 11px !important;
+    padding: 0 !important;
+}
+
+.item .mins p {
+    font-size: 9px;
+    margin: 0 0 0 .2rem !important;
+}
+
+.item .item-details .detail-h6 {
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.item .item-details p {
+    margin-bottom: .5rem !important;
+}
+
+.price h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.price button {
+    border: 1px solid rgb(19, 134, 22);
+    color: rgb(19, 134, 22);
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(247, 255, 249);
+    padding: .4rem 1.3rem;
+}
+
+.price button:hover {
+    background-color: rgb(247, 255, 249);
+    border: 1px solid rgb(19, 134, 22);
+    color: rgb(19, 134, 22);
+}
+
+.price button:active {
+    background-color: rgb(19, 134, 22) !important;
+    color: #ffffff !important;
+}
+
+/* Right part CSS End  */
+
+
+
+/* Bottom part CSS Start  */
+
+.bottompart {
+    padding: 23px 48px 58px 48px !important;
+    gap: 3rem;
+    border: .5px solid rgba(0, 0, 0, 0.08);
+    border-top: 0;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.18);
+    letter-spacing: .3px;
+}
+
+.bottompart .aboutItem {
+    flex: 1 1 0%;
+    /* flex : flex-grow flex-shrink flex-basis ; */
+}
+
+.bottompart .priceList {
+    flex: 1 1 0%;
+}
+
+.bottompart .aboutItem h1,
+.priceList h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 15px 0 24px 0;
+}
+
+.priceList h1 {
+    margin: 15px 0 30px 0;
+}
+
+.bottompart .aboutItem p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #666666;
+}
+
+.bottompart .aboutItem p span,
+td span {
+    color: #0c831f;
+    font-size: 14px;
+}
+
+.priceList h3 {
+    font-size: 13px;
+    color: #666666;
+    font-weight: 800;
+    padding-left: 34px;
+    margin-bottom: 0 !important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0 !important;
+}
+
+.table {
+    padding: 5px 0;
+}
+
+th {
+    font-size: 13px;
+    color: #666666 !important;
+}
+
+td {
+    font-size: 13px;
+    color: #666666 !important;
+}
+
+/* Bottom part CSS End  */

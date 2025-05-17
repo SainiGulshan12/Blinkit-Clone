@@ -1,0 +1,20 @@
+img{
+    cursor: pointer;
+}
+
+.caringTab img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 16px;
+}
+.items-first-row .col, .items-second-row .col {
+    padding: 0;
+} 
+.items-first-row,.items-second-row{
+    margin: 0 1rem 0 0 !important;
+}
+.items-first-row img,
+.items-second-row img{
+    object-fit: cover;
+    width: 100% ;
+}

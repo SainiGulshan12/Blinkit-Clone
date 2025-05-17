@@ -1,0 +1,62 @@
+@media(max-width:1400px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 2rem 0.5rem !important;
+    }
+
+    .navbar-brand img {
+        width: 6.5rem;
+    }
+
+    .delivery {
+        padding: 2rem 0.5rem;
+    }
+
+    .delivery h5 {
+        font-size: 16px;
+    }
+
+    .delivery p {
+        font-size: 13px;
+    }
+
+    .link-catogories h4 {
+        font-size: 18px;
+    }
+
+    .pageLinks .linkItem1 p,
+    .pageLinks .linkItem2 p {
+        font-size: 14px !important;
+    }
+
+    .downloadAndFollow {
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .downloadAndFollow .copyright p {
+        font-size: 12px;
+    }
+
+    .downloadAndFollow .download p {
+        font-size: 12px;
+    }
+
+    .downloadAndFollow .download img {
+        height: 30px;
+        width: 90px;
+    }
+
+    .downloadAndFollow .follow .icon {
+        margin: 0 8px;
+        width: 20px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+}
+@media(max-width:992px){
+    .user {
+        display: block;
+    }
+}

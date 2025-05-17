@@ -1,0 +1,71 @@
+/* Detect location modal styling start */
+@media (min-width: 576px) {
+    .location-modal {
+        --bs-modal-margin: 5.75rem !important;
+    }
+    .location-modal-dialog {
+        max-width: 560px !important;
+        margin-left: 6.3rem !important;
+    }
+}
+.locationModalContent{
+    background-color: rgb(244, 246, 252) !important;
+    border-radius: 0 !important;
+    display: block !important;
+}
+.locationModalHeader{
+    overflow: hidden;
+    padding: 2rem 1rem 1rem 2rem !important;
+    width: 100% !important;
+}
+.locationModalbody{
+    padding: 0rem 1rem 2rem 2rem !important;
+}
+.modal-body .location-btn{
+    font-size: 14px;
+    padding: .6rem;
+    background-color: #0c831f;
+    color: #ffffff;
+}
+.modal-body .location-btn:hover{
+    background-color: #459220;
+    color: #ffffff;
+}
+.detect-or-divider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.detect-or-divider span{
+    font-size: 12px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    padding: .5rem;
+    color: #bbbbbb;
+    overflow: hidden;
+}
+.detect-or-divider::before,
+.detect-or-divider::after {
+  content: '';
+  /* position: absolute; */
+  top: 50%;
+  height: 1px;
+  width: 10px;
+  background-color: #bbb;
+  z-index: 99;
+}
+
+.detect-or-divider::before {
+  left: -1.5rem;
+}
+
+.detect-or-divider::after {
+  right: -1.5rem;
+}
+.detect-location-input{
+    padding: .7rem 1rem;
+    border: 1px solid rgb(204,204,204);
+    border-radius: 12px;
+}

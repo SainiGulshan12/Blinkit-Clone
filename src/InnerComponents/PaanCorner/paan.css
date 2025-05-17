@@ -1,0 +1,122 @@
+.rollingHeader {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    width: 84.25rem;
+    margin-left: -.75rem;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 10px 0px;
+}
+
+.rollingHeader h2 {
+    font-size: 14px;
+    font-weight: 700;
+    border: .5px solid rgb(232, 232, 232);
+    padding: 12px;
+    margin-bottom: 0 !important;
+}
+
+.rightpart .rollingContainer {
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgb(247, 247, 247);
+    padding: .4rem;
+}
+
+.rollingContainer .tobaccoImage img {
+    width: 100%;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+}
+
+
+
+/* Policy modal CSS Start */
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 575px !important;
+    }
+}
+
+.modal-content {
+    padding: 24px;
+    border-radius: 1rem !important;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.3);
+    letter-spacing: 0 !important;
+}
+
+.modal-header {
+    border-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+.modal-title {
+    font-size: 26px !important;
+    font-weight: 800;
+    padding-bottom: 24px;
+    letter-spacing: .5px;
+}
+
+.modal-body {
+    padding: 0 !important;
+}
+
+.modal-body .icon {
+    font-size: 22px;
+    padding: 8px;
+    font-weight: 200;
+    color: rgb(255, 51, 51);
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.modal-body p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0 !important;
+}
+
+.terms-conditions {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin: 8px 0 20px 0;
+}
+
+.terms-conditions span {
+    color: #0c831f;
+    border-bottom: 1px dotted #0c831f;
+}
+
+.modal-footer {
+    flex-wrap: nowrap !important;
+    padding: 0 !important;
+}
+
+.modal-footer button {
+    width: 100%;
+    padding: 16px 0;
+    border: 1px solid rgb(49, 134, 22);
+    border-radius: 8px;
+    color: rgb(49, 134, 22);
+    letter-spacing: .5px;
+}
+
+.modal-footer button:hover {
+    background-color: #318616;
+    color: #ffffff;
+}
+
+.modal-footer .fillbtn {
+    background-color: #318616;
+    color: #ffffff;
+    border-radius: 8px;
+    letter-spacing: .5px;
+}
+
+.modal-footer .fillbtn:hover {
+    background-color: #339615;
+}
+
+/* Policy modal CSS end */

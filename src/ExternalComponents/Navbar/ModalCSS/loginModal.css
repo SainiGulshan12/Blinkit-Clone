@@ -1,0 +1,77 @@
+/* Login modal styling start */
+
+@media (min-width: 576px) {
+    .login-modal {
+        --bs-modal-margin: 1.75rem !important;
+    }
+    .login-modal-dialog {
+        max-width: 640px !important;
+    }
+}
+
+.loginModalContent {
+    border-radius: 16px !important;
+}
+.loginModalHeader {
+    border-bottom: none !important;
+    align-items: start !important;
+    justify-content: space-between;
+    width: 55%;
+    padding: 1.5rem 0 0 2rem !important;
+}
+.loginModalHeader .modal-title{
+    cursor: pointer;
+}
+.loginModalBody {
+    text-align: center;
+    align-self: center;
+}
+.loginModalBody h3{
+    overflow: hidden;
+    font-weight: 800;
+    font-size: 26px;
+    margin-bottom: 0 !important;
+}
+.loginModalBody p{
+    font-size: 19px;
+}
+.loginModalBody .input-group-text {
+    padding: .9rem 1rem !important;
+    font-weight: 600 !important;
+    background-color: #ffffff !important;
+    border-color: rgb(170,170,170) !important;
+    border-radius: 12px 0 0 12px !important; 
+}
+.loginModalBody .form-control::placeholder{
+    font-size: 16px !important;
+    color: rgb(156,156,156) !important;
+    font-weight: 600;
+}
+.loginModalBody .form-control:focus {
+    box-shadow: none !important;
+}
+.loginModalBody .form-control {
+    border-color: rgb(170,170,170) !important;
+    border-left: 0 !important;
+    border-radius: 0px 12px 12px 0px !important;
+}
+.loginModalBody .loginbtn{
+    background-color: rgb(156,156,156);
+    border: none;
+    padding: 1rem 8rem;
+    border-radius: 16px;
+    cursor: default !important;
+}
+.loginModalBody .loginbtn:hover{
+    background-color: rgb(156,156,156);
+}
+.modal-footer {
+    border-top: none !important;
+    font-size: 14px;
+    color: #666666;
+    justify-content: center !important;
+}
+.modal-footer span{
+    border-bottom: 1px dotted #666666;
+    cursor: pointer;
+}

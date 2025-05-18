@@ -156,13 +156,13 @@ function paanCorner() {
               <h1 className="modal-title" >Please make sure...</h1>
             </div>
             <div className="modal-body">
-              <div className="d-flex mb-3 align-items-center">
+              <div className="agecriteria d-flex mb-3 align-items-center">
                 <FontAwesomeIcon icon={faBan} className='icon' />
-                <p className="align-self-center">You are above 18 years of age and not buying tobacco on behalf of anyone who is a minor (under 18 years of age).</p>
+                <p>You are above 18 years of age and not buying tobacco on behalf of anyone who is a minor (under 18 years of age).</p>
               </div>
               <div className="d-flex mb-3 align-items-center">
                 <FontAwesomeIcon icon={faBan} className='icon' />
-                <p className="align-self-center">Your location is not in and around a school or college premises.</p>
+                <p className="mb-0">Your location is not in and around a school or college premises.</p>
               </div>
               <div className="terms-conditions">We are bound to report your account in case of any transgressions! <br /> <span>Read Terms & Conditions</span></div>
             </div>

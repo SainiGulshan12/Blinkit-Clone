@@ -9,7 +9,7 @@
     }
 }
 .locationModalContent{
-    background-color: rgb(244, 246, 252) !important;
+    background-color: var(--locationModalContent-bg-color) !important;
     border-radius: 0 !important;
     display: block !important;
 }
@@ -24,12 +24,12 @@
 .modal-body .location-btn{
     font-size: 14px;
     padding: .6rem;
-    background-color: #0c831f;
-    color: #ffffff;
+    background-color: var(--span-seeall-color);
+    color: var(--primary-color);
 }
 .modal-body .location-btn:hover{
-    background-color: #459220;
-    color: #ffffff;
+    background-color: var(--locationbtn-hover-color);
+    color: var(--primary-color);
 }
 .detect-or-divider{
     position: relative;
@@ -40,20 +40,18 @@
 }
 .detect-or-divider span{
     font-size: 12px;
-    border: 1px solid #bbb;
+    border: 1px solid var(--detect-divider-color);
     border-radius: 50%;
     padding: .5rem;
-    color: #bbbbbb;
+    color: var(--detect-divider-color);
     overflow: hidden;
 }
 .detect-or-divider::before,
 .detect-or-divider::after {
   content: '';
-  /* position: absolute; */
-  top: 50%;
   height: 1px;
   width: 10px;
-  background-color: #bbb;
+  background-color: var(--detect-divider-color);
   z-index: 99;
 }
 
@@ -66,6 +64,6 @@
 }
 .detect-location-input{
     padding: .7rem 1rem;
-    border: 1px solid rgb(204,204,204);
+    border: 1px solid var(--detect-location-input-color);
     border-radius: 12px;
 }

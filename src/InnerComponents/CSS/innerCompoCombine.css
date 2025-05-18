@@ -5,9 +5,9 @@
     position: relative;
     height: 75vh;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px 0px;
-    background-color: #ffffff;
+    background-color: var(--primary-color);
     max-width: 7% !important;
-    border: .5px solid rgb(232, 232, 232);
+    border: .5px solid var( --item-rolling-header-color);
     padding: 0 .5rem !important;
 }
 
@@ -24,7 +24,7 @@
     width: 52px;
     height: 53px;
     border-radius: .75rem .75rem;
-    background-color: rgb(248, 248, 248);
+    background-color: var(--navsearch-scroll-arrow-color);
     overflow: hidden;
 }
 
@@ -41,7 +41,7 @@
 .leftpart .items p {
     text-align: center;
     font-size: 12px;
-    color: #696969;
+    color: var(--items-para-color);
     line-height: 14px;
     margin-top: 6px;
     margin-bottom: 0 !important;
@@ -59,7 +59,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: rgb(248, 248, 248);
+    background-color: var(--navsearch-scroll-arrow-color);
 }
 
 .selling-items {
@@ -70,12 +70,12 @@
 }
 
 .selling-items .item {
-    min-width: 194px;
-    max-width: 194px !important;
-    border: 0.5px solid rgb(232, 232, 232);
+    min-width: 190px;
+    max-width: 193px !important;
+    border: 0.5px solid var(--item-rolling-header-color);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 0 .75rem .75rem;
     cursor: pointer;
 }
@@ -84,7 +84,7 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
-    padding: 0 !important;
+    padding: 0 ;
 }
 
 
@@ -95,18 +95,18 @@
     font-weight: 700;
     border-radius: 4px;
     padding: .1rem .3rem;
-    background-color: #f5f5f5;
+    background-color: var(--item-min-bg-color);
 }
 
 .item .mins img {
-    width: 11px !important;
-    height: 11px !important;
-    padding: 0 !important;
+    width: 11px ;
+    height: 11px ;
+    padding: 0 ;
 }
 
 .item .mins p {
     font-size: 9px;
-    margin: 0 0 0 .2rem !important;
+    margin: 0 0 0 .2rem ;
 }
 
 .item .item-details .detail-h6 {
@@ -129,23 +129,23 @@
 }
 
 .price button {
-    border: 1px solid rgb(19, 134, 22);
-    color: rgb(19, 134, 22);
+    border: 1px solid var(--product-cartbtn-color);
+    color: var(--product-cartbtn-color);
     font-size: 14px;
     font-weight: 600;
-    background-color: rgb(247, 255, 249);
+    background-color: var( --product-cartbtn-bg-color);
     padding: .4rem 1.3rem;
 }
 
 .price button:hover {
-    background-color: rgb(247, 255, 249);
-    border: 1px solid rgb(19, 134, 22);
-    color: rgb(19, 134, 22);
+    background-color: var( --product-cartbtn-bg-color);
+    border: 1px solid var(--product-cartbtn-color);
+    color: var(--product-cartbtn-color);
 }
 
 .price button:active {
-    background-color: rgb(19, 134, 22) !important;
-    color: #ffffff !important;
+    background-color: var(--product-cartbtn-color) !important;
+    color: var(--primary-color) !important;
 }
 
 /* Right part CSS End  */
@@ -164,8 +164,7 @@
 }
 
 .bottompart .aboutItem {
-    flex: 1 1 0%;
-    /* flex : flex-grow flex-shrink flex-basis ; */
+    flex: 1 1 0%;    /* flex : flex-grow flex-shrink flex-basis ; */
 }
 
 .bottompart .priceList {
@@ -188,18 +187,18 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
-    color: #666666;
+    color: var( --footer-links-color);
 }
 
 .bottompart .aboutItem p span,
 td span {
-    color: #0c831f;
+    color: var(--span-seeall-color);
     font-size: 14px;
 }
 
 .priceList h3 {
     font-size: 13px;
-    color: #666666;
+    color: var(--footer-links-color);
     font-weight: 800;
     padding-left: 34px;
     margin-bottom: 0 !important;
@@ -215,12 +214,12 @@ td span {
 
 th {
     font-size: 13px;
-    color: #666666 !important;
+    color: var(--footer-links-color) !important;
 }
 
 td {
     font-size: 13px;
-    color: #666666 !important;
+    color: var(--footer-links-color) !important;
 }
 
 /* Bottom part CSS End  */

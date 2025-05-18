@@ -38,40 +38,40 @@
 .loginModalBody .input-group-text {
     padding: .9rem 1rem !important;
     font-weight: 600 !important;
-    background-color: #ffffff !important;
-    border-color: rgb(170,170,170) !important;
+    background-color: var(--primary-color) !important;
+    border-color: var(--input-group-text-color) !important;
     border-radius: 12px 0 0 12px !important; 
 }
 .loginModalBody .form-control::placeholder{
     font-size: 16px !important;
-    color: rgb(156,156,156) !important;
+    color: var(--form-control-color) !important;
     font-weight: 600;
 }
 .loginModalBody .form-control:focus {
     box-shadow: none !important;
 }
 .loginModalBody .form-control {
-    border-color: rgb(170,170,170) !important;
+    border-color: var(--input-group-text-color) !important;
     border-left: 0 !important;
     border-radius: 0px 12px 12px 0px !important;
 }
 .loginModalBody .loginbtn{
-    background-color: rgb(156,156,156);
+    background-color: var(--form-control-color);
     border: none;
     padding: 1rem 8rem;
     border-radius: 16px;
     cursor: default !important;
 }
 .loginModalBody .loginbtn:hover{
-    background-color: rgb(156,156,156);
+    background-color: var(--form-control-color);
 }
 .modal-footer {
     border-top: none !important;
     font-size: 14px;
-    color: #666666;
+    color: var(--footer-links-color);
     justify-content: center !important;
 }
 .modal-footer span{
-    border-bottom: 1px dotted #666666;
+    border-bottom: 1px dotted var(--footer-links-color);
     cursor: pointer;
 }

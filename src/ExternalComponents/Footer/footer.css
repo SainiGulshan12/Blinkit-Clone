@@ -7,7 +7,7 @@
     font-weight: 600 ;
 }
 .link-catogories h4 span{
-    color: #0c831f;
+    color: var(--span-seeall-color);
     margin-left: 1rem;
     font-weight: 400;
     font-size: 18px;
@@ -21,7 +21,7 @@
 .pageLinks .linkItem1 p{
     display: table;
     font-size: 16px;
-    color: #666666;
+    color: var(--footer-links-color);
     margin-bottom: 10px;
     cursor: pointer;
 }
@@ -32,18 +32,18 @@
 .pageLinks .linkItem2 p{
     display: table;
     font-size: 16px;
-    color: #666666;
+    color: var(--footer-links-color);
     margin-bottom: 8px;
     cursor: pointer;
 }
 .downloadAndFollow{
     padding: 18px;
     width: 96%;
-    background-color: rgb(252, 252, 252);
+    background-color: var( --download-nav-bg-color);
 }
 .downloadAndFollow .copyright p ,
 .downloadAndFollow .download p{
-    color: #666666;
+    color: var(--footer-links-color);
     font-size: 14px;
     margin-bottom: 0 !important;
 }
@@ -59,9 +59,9 @@
 .downloadAndFollow .follow .icon{
     width: 26px;
     font-size: 26px;
-    background-color: #1d1d1d;
+    background-color: var(--icon-bg-color);
     border-radius: 50%;
-    color: #ffffff;
+    color: var(--primary-color);
     padding: .7rem .7rem;
     margin: 0 12px;
     cursor: pointer;
@@ -74,5 +74,5 @@
     font-size: 16px;
     margin: 12px;
     line-height: 20px;
-    color: #666666;
+    color: var(--footer-links-color);
 }

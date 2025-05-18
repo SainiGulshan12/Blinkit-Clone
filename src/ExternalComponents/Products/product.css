@@ -13,13 +13,13 @@
     font-size: 26px;
     font-weight: 700;
     padding: 1rem 0 1rem 0;
-    color: #1c1c1c;
+    color: var(--product-heading-color);
 }
 
 .product-heading h4 {
     text-align: end;
     font-size: 22px;
-    color: #0c831f;
+    color: var(--span-seeall-color);
     cursor: pointer;
 }
 
@@ -35,17 +35,17 @@
     border: none;
     border-radius: 50%;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    background-color: var(--primary-color);
     z-index: 10;
     transition: 0.3s;
 }
 
 .scroll-arrow:hover {
-    background-color: rgb(248, 248, 248) !important;
+    background-color: var(--navsearch-scroll-arrow-color) !important;
 }
 
 .scroll-arrow:active {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: var(--scroll-arrow-active-color) !important;
 }
 
 .scroll-arrow.left {
@@ -69,10 +69,10 @@
 
 .item {
     min-width: 200px;
-    border: 0.5px solid rgb(232, 232, 232);
+    border: 0.5px solid var(--item-rolling-header-color);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 0 .75rem .75rem;
     cursor: pointer;
 }
@@ -99,7 +99,7 @@
     font-weight: 700;
     border-radius: 4px;
     padding: .1rem .3rem;
-    background-color: #f5f5f5;
+    background-color: var(--item-min-bg-color);
 }
 
 .item .min img {
@@ -133,21 +133,21 @@
 }
 
 .cart-price button {
-    border: 1px solid rgb(19, 134, 22);
-    color: rgb(19, 134, 22);
+    border: 1px solid var(--product-cartbtn-color);
+    color: var(--product-cartbtn-color);
     font-size: 14px;
     font-weight: 600;
-    background-color: rgb(247, 255, 249);
+    background-color: var(--product-cartbtn-bg-color);
     padding: .4rem 1.3rem;
 }
 
 .cart-price button:hover {
-    background-color: rgb(247, 255, 249);
-    border: 1px solid rgb(19, 134, 22);
-    color: rgb(19, 134, 22);
+    background-color: var(--product-cartbtn-bg-color);
+    border: 1px solid var(--product-cartbtn-color);
+    color: var(--product-cartbtn-color);
 }
 
 .cart-price button:active {
-    background-color: rgb(19, 134, 22) !important;
-    color: #ffffff !important;
+    background-color: var(--product-cartbtn-color) !important;
+    color: var(--primary-color) !important;
 }

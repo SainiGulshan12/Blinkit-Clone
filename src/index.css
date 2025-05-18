@@ -10,7 +10,40 @@
     font-family: 'Inter', sans-serif;
 }
 
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --navlink-color: #363636;
+    --navsearch-navbrand-color: #eeeeee;
+    --navsearch-scroll-arrow-color: #f8f8f8;
+    --nav-cartbtn-bg-color: #e0dfdf;
+    --locationModalContent-bg-color: #f4f6fc;
+    --locationbtn-hover-color: #459220;
+    --detect-divider-color: #bbbbbb;
+    --detect-location-input-color: #cccccc;
+    --input-group-text-color: #aaaaaa;
+    --form-control-color: #9c9c9c;
+    --product-heading-color: #1c1c1c;
+    --scroll-arrow-active-color:#f0f0f0;
+    --item-rolling-header-color:#e8e8e8;
+    --item-min-bg-color:#f5f5f5;
+    --product-cartbtn-color:#138616;
+    --product-cartbtn-bg-color:#f7fff9;
+    --rollingContainer-bg-color:#f7f7f7;
+    --dont-allow-icon-color:#ff3333;
+    --modal-footerbtn-color:#318616;
+    --modal-footerbtn-hover-color:#339615;
+    --items-para-color:#696969;
+    --delpeice-color: #828282;
+    --span-seeall-color: #0c831f;
+    --footer-links-color: #666666;
+    --download-nav-bg-color: #fcfcfc;
+    --icon-bg-color: #1d1d1d;
+}
+
 body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     letter-spacing: .5px;
     padding-top: 100px;
 }
@@ -34,6 +67,6 @@ span {
 }
 
 .delprice {
-    color: #828282;
+    color: var(--delpeice-color);
     font-weight: 400 !important;
 }

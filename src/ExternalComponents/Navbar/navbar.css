@@ -3,7 +3,7 @@
     width: 100%;
     padding: 0 2rem !important;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: var(--primary-color);
 }
 .navbar-brand{
     position: relative;
@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 .navbar-brand:hover{
-    background-color: rgb(252,252,252);
+    background-color: var(--download-navbrand-bg-color);
 }
 .navbar-brand img {
     object-fit: cover;
@@ -21,7 +21,7 @@
 .navbar-brand::after{
     content: '';
     position: absolute;
-    background-color: rgb(238, 238, 238);
+    background-color: var(--navsearch-navbrand-color);
     top: 0rem;
     left: 10.5rem;
     width: 1px; 
@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 .delivery:hover{
-    background-color: rgb(252,252,252);
+    background-color: var(--download-nav-bg-color);
 }
 .delivery h5{
     font-size: 20px;
@@ -51,15 +51,15 @@
 }
 .navbar .search-box{
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: var(--navsearch-scroll-arrow-color);
     border-radius: 12px;
-    border: 1px solid rgb(238, 238, 238);
+    border: 1px solid var(--navsearch-navbrand-color);
     padding: 0 0 0 1rem;
 }
 .navbar .search{
     height: 50px;
     padding: 0 0 0 12px;
-    background-color: #f8f8f8;
+    background-color: var(--navsearch-scroll-arrow-color);
     border: none;
 }
 .navbar .search::placeholder{
@@ -71,16 +71,16 @@
 .navbar .nav-link {
     padding: 2rem 5rem 2rem 4rem !important;
     font-size: 20px ;
-    color: #363636 ;
+    color: var(--navlink-color);
 }
 .navbar .nav-link:hover{
-    background-color: rgb(252,252,252);
+    background-color: var(--download-nav-bg-color);
 }
 .navbar .cart-btn{
     padding: 0rem 1rem;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #e0dfdf;
+    color: var(--primary-color);
+    background-color: var(--nav-cartbtn-bg-color);
     border: none;
     border-radius: 10px ;
 }
@@ -88,7 +88,7 @@
     padding: 1rem 3.5rem 1rem 0rem;
     background-color: transparent;
     border: none;
-    color: #ffffff;
+    color: var(--primary-color);
     font-weight: 700;
     white-space: nowrap;
 }
@@ -107,7 +107,7 @@
     background: none;
     padding: .75rem .75rem;
     border-radius: 50%;
-    border: 3px solid #000;
+    border: 3px solid var(--secondary-color);
 }
 .user .icon{
     position: absolute;

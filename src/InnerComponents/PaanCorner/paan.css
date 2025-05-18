@@ -1,7 +1,7 @@
 .rollingHeader {
     position: sticky;
     top: 0;
-    background-color: #ffffff;
+    background-color: var(--primary-color);
     width: 84.25rem;
     margin-left: -.75rem;
     z-index: 999;
@@ -11,7 +11,7 @@
 .rollingHeader h2 {
     font-size: 14px;
     font-weight: 700;
-    border: .5px solid rgb(232, 232, 232);
+    border: .5px solid var(--item-rolling-header-color);
     padding: 12px;
     margin-bottom: 0 !important;
 }
@@ -19,7 +19,7 @@
 .rightpart .rollingContainer {
     height: 100%;
     overflow-y: auto;
-    background-color: rgb(247, 247, 247);
+    background-color: var(--rollingContainer-bg-color);
     padding: .4rem;
 }
 
@@ -66,13 +66,13 @@
     font-size: 22px;
     padding: 8px;
     font-weight: 200;
-    color: rgb(255, 51, 51);
-    background-color: rgb(247, 247, 247);
+    color: var(--dont-allow-icon-color);
+    background-color: var(--rollingContainer-bg-color);
     border-radius: 8px;
     margin-right: 12px;
 }
 
-.modal-body p {
+.modal-body .agecriteria p {
     font-size: 16px;
     line-height: 18px;
     margin-bottom: 0 !important;
@@ -80,13 +80,13 @@
 
 .terms-conditions {
     font-size: 14px;
-    color: rgb(102, 102, 102);
+    color: var(--footer-links-color);
     margin: 8px 0 20px 0;
 }
 
 .terms-conditions span {
-    color: #0c831f;
-    border-bottom: 1px dotted #0c831f;
+    color: var(--span-seeall-color);
+    border-bottom: 1px dotted var(--span-seeall-color);
 }
 
 .modal-footer {
@@ -97,26 +97,26 @@
 .modal-footer button {
     width: 100%;
     padding: 16px 0;
-    border: 1px solid rgb(49, 134, 22);
+    border: 1px solid var(--modal-footerbtn-color);
     border-radius: 8px;
-    color: rgb(49, 134, 22);
+    color: var(--modal-footerbtn-color);
     letter-spacing: .5px;
 }
 
 .modal-footer button:hover {
-    background-color: #318616;
-    color: #ffffff;
+    background-color: var(--modal-footerbtn-color);
+    color: var(--primary-color);
 }
 
 .modal-footer .fillbtn {
-    background-color: #318616;
-    color: #ffffff;
+    background-color: var(--modal-footerbtn-color);
+    color: var(--primary-color);
     border-radius: 8px;
     letter-spacing: .5px;
 }
 
 .modal-footer .fillbtn:hover {
-    background-color: #339615;
+    background-color: var(--modal-footerbtn-hover-color);
 }
 
 /* Policy modal CSS end */

@@ -20,9 +20,9 @@ function NavigationBar() {
         {/* Location Modal start */}
         <div className="modal fade location-modal" id="DetectLocation" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="DetectLocationLabel" aria-hidden="true">
           <div className="modal-dialog location-modal-dialog">
-            <div className="modal-content locationModalContent">
+            <div className="modal-content locationModalContent rounded-0">
               <div className="modal-header locationModalHeader border-0">
-                <p className="modal-title fs-6">Change Location</p>
+                <p className="modal-title fs-6 fw-normal pb-0">Change Location</p>
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div className="modal-body locationModalbody d-flex align-items-center gap-3">

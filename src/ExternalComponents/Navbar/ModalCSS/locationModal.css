@@ -10,13 +10,10 @@
 }
 .locationModalContent{
     background-color: var(--locationModalContent-bg-color) !important;
-    border-radius: 0 !important;
     display: block !important;
 }
-.locationModalHeader{
-    overflow: hidden;
-    padding: 2rem 1rem 1rem 2rem !important;
-    width: 100% !important;
+.modal-title{
+    margin-bottom: 14px !important;
 }
 .locationModalbody{
     padding: 0rem 1rem 2rem 2rem !important;
